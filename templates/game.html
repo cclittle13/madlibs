@@ -2,19 +2,28 @@
 
 <html>
 <head>
+    <link rel+"stylesheet"href="/madlibs.css">
     <title></title>
 </head>
 <body>
     <form action="/madlib">
 
         <label>What's your favorite food?
-        <input type="text" name="noun"><br></label>
+        <input type="checkbox" name="food" value="icecream">Ice Cream
+        <input type="checkbox" name="food" value="taco">Taco
+        <input type="checkbox" name="food" value="boba">Boba!!!
+        <br></label>
 
         <label>What's your favorite color?
-        <input type="text" name="color"><br></label>
+        <input type="radio" name="color" value="red">Red
+        <input type="radio" name="color" value="blue">Blue</label><br>
 
         <label>Who is your favorite singer?
-        <input type="text" name="person"><br></label>
+        <select name="person">      
+            <option value="Lady Gaga">LadyGaga</option>
+            <option value="Dolly Parton">DollyParton</option>
+        </select>
+            <br></label>
 
         <label>Describe yourself in one word.
         <input type="text" name="adjective"><br></label>
