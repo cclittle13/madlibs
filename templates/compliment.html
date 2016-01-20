@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+<head>
+  <title>Playing a game</title>
+</head>
+<body>
+    Hi {{ person }}! Would you like to play a game?
+
+    <form action="/game">
+    <input type="radio" name="play" value="yes"><label>Yes</label>
+    <input type="radio" name="play" value="no"><label>No</label><br>
+    <input type="submit">
+    </form>
+
+</body>
+
+</html>
